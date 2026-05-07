@@ -1,4 +1,5 @@
-custom.foo(5, "Hello", custom.MyEnum.Two)
+basic.showNumber(custom.fib(5))
 basic.forever(function () {
-    basic.showNumber(custom.fib(5))
+    basic.clearScreen()
+    custom.foo(6, "Hi", custom.MyEnum.Two)
 })

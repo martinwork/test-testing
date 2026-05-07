@@ -25,7 +25,7 @@ namespace custom {
     //% block
     //% e.defl=custom.MyEnum.One
     export function foo(n: number, s: string, e: MyEnum): void {
-        // Add code here
+        basic.showString( n + " " + s + " " + e)
     }
 
     /**
